@@ -1,0 +1,157 @@
+
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Blinker', sans-serif;
+    font-size: 13px;
+}
+.storimg{
+    width:56px;
+    height: 56px;
+}
+/*Navbar*/
+.navb{
+    width: 975px;
+    height: 60px;
+}
+.iw{
+    width: 35%;
+}
+.iwc{
+    width: 35%;
+}
+.sw{
+    width: 30%;
+    height: 25px;
+
+}
+@media (max-width:948px) {
+    .navb{
+    width:100vw;
+}
+
+}
+@media (max-width:800px) {
+    .sw{
+        display: none;
+    }
+    .icw{
+        width: 65%;
+    }
+    .iw{
+        width:30%; 
+    }
+   
+    
+}
+@media (max-width:1000px) {
+    .sug{
+        display: none;
+        width: 0px;
+    }
+    .mmw{
+        width: 500px;
+        margin-left: 5%;
+    }
+}
+
+
+/*main*/
+
+.mmw{
+    width:821px;
+    padding: 0px;
+}
+
+.mw{
+    width: 470px;
+    margin: 10px 32px 0px 0px;
+}
+.msw{
+    width: 319px;
+    height: 500px;
+    margin: 0px 16px 30px 0px;
+}
+
+.pp{
+    width: 32px;
+    height: 32px;
+}
+
+.ptext{
+    font-size: 11px;
+    text-decoration: none;
+    color: dimgray;
+
+}
+.ptext a{
+    font-size: 11px;
+    text-decoration: none;
+    color: dimgray;
+    font-family: 'Roboto', sans-serif;
+
+}
+.btext{
+color: rgb(82, 71, 71);
+text-decoration: none;
+font-family: 'Blinker', sans-serif;
+font-size: 13px;
+font-weight: bold;
+}
+.switch{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Blinker', sans-serif;
+    color: #3AACF7;
+
+}
+footer {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Blinker', sans-serif;
+    color: #CACACA;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Blinker', sans-serif;
+    color: #CACACA;
+    
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+
+/* Modal*/
+.abc{
+    cursor: pointer;
+   }
+   .mod{
+    color:red;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Blinker', sans-serif;
+   }
+   .mod2{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Blinker', sans-serif;
+   }
+   .modal-content{
+   width: 80% !important;
+}
+
+
+/*java classes*/
+.op1{
+    fill-opacity: 0.50;
+}
