@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel=" icon" href="favicon.png" type="image/x-icon">
+    <title> Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style>
+
+
+</style>
+
+<script>
+const popover1 = new bootstrap.Popover('.example-popover', {
+  container: 'body'
+});
+const exampleEl = document.getElementById('example')
+const popover = new bootstrap.Popover(exampleEl, options);
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  const popover = new bootstrap.Popover('.popover-dismiss', {
+  trigger: 'focus'
+})
+</script>
+<body>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <h5 class="modal-title text-align-center" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10 ms-5 ps-5 mt-5 mb-5 ">
+                <img style="width:150px" src="images/insta.svg" alt="">
+              </div>
+            </div>
+            <div class="row justify-content-center ps-3 pb-3 pe-3"><input type="text" placeholder="username, email, phone no"> </div>
+            <div class="row justify-content-center ps-3 pe-3 pb-3"> <input type="text" placeholder="password">  </div>
+            <div class="row ps-3 pe-3 pb-3 d-block inline-block">
+             <div class="col-2">  <input type="checkbox" vlaue="save login info" name="1" id="1"></div> 
+             <div class="col-5">save login info</div>
+            </div>
+            <div class="row ps-3 pe-3 pb-3"><button type="button" class="btn btn-primary">login</button> </div>
+            <div class="row justify-content-center ps-3 pe-3 pb-3"> Forget passowrd?</div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <div class="col-1  "  > 
+        <svg data-bs-toggle="modal" data-bs-target="#exampleModal4" aria-label="Share Post" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line><polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon></svg>
+       <!-- Modal -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title text-align-center switch" id="exampleModalLabel4"> <b> Share </b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <div class="row">
+             <div class="col-2 "><p class="btext mt-2">To:</p></div>
+             <div class=" col-10 "><input class="form-control no-border border-0 btext" type="text" placeholder="search"></div> 
+            <hr>
+            <h5 class="ptext"> Suggested:</h5> <br>
+            <span>Text not found.</span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-12"><button type="button" class="btn btn-primary col-12">Save</button>
+            </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal 
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title text-align-center switch" id="exampleModalLabel4"> <b> Share </b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <div class="row">
+             <div class="col-2 "><p class="btext mt-2">To:</p></div>
+             <div class=" col-10 "><input class="form-control no-border border-0 btext" type="text" placeholder="search"></div> 
+            <hr>
+            <h5 class="ptext"> Suggested:</h5> <br>
+            <span>Text not found.</span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-12"><button type="button" class="btn btn-primary col-12">Save</button>
+            </div></div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmark-fill" 
+  viewBox="0 0 16 16">
+    <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+  </svg>
+
+  <svg xmlns="http://www.w3.org/2000/svg" id="save2" viewBox="0 0 24 24" width="24" height="24">
+    <path fill-rule="black" 
+    d="M5 3.75C5 2.784 5.784 2 6.75 2h10.5c.966 0 1.75.784 1.75 1.75v17.5a.75.75 0 01-1.218.586L12 17.21l-5.781 4.625A.75.75 0 015 21.25V3.75zm1.75-.25a.25.25 0 00-.25.25v15.94l5.031-4.026a.75.75 0 01.938 0L17.5 19.69V3.75a.25.25 0 00-.25-.25H6.75z"></path></svg>
+
+  
+  <i data-visualcompletion="css-img" aria-label="Instagram" class="sp_TNg2CZYaF1T sx_7d646c" role="img"></i>
+
+  <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+ 
+  <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover1" data-bs-placement="right"
+        data-bs-custom-class="custom-popover"
+        data-bs-title="Custom popover"
+        data-bs-content="This popover is themed via CSS variables.">
+  Custom popover
+</button>
+
+
+
+
+<svg aria-label="Save" id="sa1" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+  <polygon  id="sa2" fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round"
+   stroke-linejoin="round" stroke-width="2"></polygon></svg>
+<svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+ width="24">
+  <path d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z"></path></svg>
+  <svg aria-label="Save" id="sa1" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+    <path d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z"></path></svg> </svg>
+
+<script>
+  
+
+const sa1= document.getElementById("sa1")
+const sa2 = document.getElementById("sa2")
+sa1.addEventListener("click", ()=>{
+  if(sa1.style.areaLable = "save"){
+    var sa3 = document.createElement("path")
+    sa3.setAttribute("d","M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z") ;
+    sa1.append(sa3);
+    sa1.style.areaLable = "remove";
+    sa2.remove();
+    }
+})
+
+
+
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

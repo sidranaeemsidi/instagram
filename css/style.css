@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100&family=Roboto&display=swap');
+body{
+    background-color: #FAFAFA;
+    font-family: 'Robot', sans-serif;
+    font-size: 13px;
+}
+.storimg{
+    width:64px;
+    height: 63px;
+ padding: .11rem !important;
+ border: .14rem solid #DA00B4;
+}
+
+
+/*Navbar*/
+.navb{
+    width: 975px;
+    height: 59px;
+}
+.iw{
+    width: 35%;
+    margin-top: .54rem !important;
+    padding-left: 17px;
+
+}
+.iwc{
+    width: 35%;
+    margin-top: .1rem !important;
+}
+.sw{
+    width: 30%;
+    height: 25px;
+    font-family: 'Blinker', sans-serif;
+    color: black;
+    border: none !important;
+}
+.liw{
+    padding-left: .47rem;;
+}
+.liw2{
+    padding-left: .87rem;;
+}
+.liw3{
+    padding-left: .88rem;;
+}
+.placeicon{
+   font-family: fontawesome;
+}
+
+.sug{
+    padding-top: .45rem;
+    padding-left: .1rem;
+   
+}
+
+@media (max-width:948px) {
+    .navb{
+    width:100vw;
+}
+
+}
+@media (max-width:800px) {
+    .sw{
+        display: none;
+    }
+    .icw{
+        width: 63%;
+        margin-left: 0px;
+        padding-right: 22px; 
+    }
+
+    .iw{
+        width:30%; 
+      
+    margin-left: 7px;
+    margin-right: 2px; 
+    }
+   
+    
+}
+@media (max-width:1000px) {
+    .sug{
+        display: none;
+        width: 0px;
+    }
+    .mmw{
+        justify-content: center !important;
+        padding-left: 1.3rem !important;
+        
+       
+    }
+}
+.storyimg{
+    padding-left: .30rem !important;
+}
+
+/*main*/
+
+.mmw{
+    width:821px;
+    margin-left: .15rem;
+}
+
+.mw{
+    width: 475px;
+    padding-left: .15rem;
+    margin: 10px 28px 0px 0px;
+    justify-content: center !important;
+ 
+}
+.msw{
+    width: 325px;
+    height: 500px;
+    margin: 0px 16px 30px 0px;
+   
+}
+.carline{
+    padding-left: 14px;
+    margin-top: .85rem;
+    margin-bottom: .80rem ! important;
+}
+
+.pp{
+    width: 32px;
+    height: 32px;
+}
+.ctext{
+    font-size: 11px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding-top: .33rem;
+   font-family:  'Roboto', sans-serif;
+}
+
+
+.ptext a{
+    font-size: 12px;
+    text-decoration: none;
+    color: dimgray;
+    font-family: 'Roboto', sans-serif;
+
+}
+.ftext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.fimage{
+    width: 133.33px;
+    height: 133.33px;
+
+}
+.btext{
+color: black;
+text-decoration: none;
+font-family:'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 800;
+}
+.ppp{
+    padding: .1rem;
+}
+.modalwh .modal-content{
+    height: 90%;
+}
+#modal32{
+    height: 90vh;
+    width: 70vw;
+}
+.switch{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3AACF7;
+
+}
+footer {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Robot', sans-serif;
+    color: #CACACA;
+    
+}
+
+
+.fotext{
+    font-size: 11px;
+    text-decoration: none;
+    text-align: center;
+    color: #CCCCCC;
+    padding-top: .33rem;
+   font-family:  'Roboto', sans-serif;
+
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+
+/* Modal*/
+.abc{
+    cursor: pointer;
+   }
+   .mod{
+    color:red;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Robot', sans-serif;
+   }
+   .mod2{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Robot', sans-serif;
+   }
+   .modal-content{
+   width: 80% !important;
+}
+.dropdown-menu{
+    width: 400px !important;
+}
+.wdm{
+    width: 400px;
+}
+.dropdown-item:hover{
+    background-color: white !important;
+    
+}
+.popwidth{
+    width: 300px !important;
+
+}
+
+
+
+/*javaS classes*/
+.op1{
+    fill-opacity: 0.50;
+}
+.op2{
+    filter: invert(0.5)
+}
+
